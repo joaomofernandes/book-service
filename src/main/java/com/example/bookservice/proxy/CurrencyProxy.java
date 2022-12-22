@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.math.BigDecimal;
 
-@FeignClient(name = "currency-service", url = "localhost:8000")
+@FeignClient(name = "currency-service")
 public interface CurrencyProxy {
 
     @GetMapping(value = "/currency-service/{amount}/{from}/{to}")
