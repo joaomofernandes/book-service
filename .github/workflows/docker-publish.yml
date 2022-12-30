@@ -5,7 +5,7 @@ name: Continuous Integration with Github - book-service
 # separate terms of service, privacy policy, and support
 # documentation.
 
-on:[push]
+on: [push]
 
 jobs:
   build:
